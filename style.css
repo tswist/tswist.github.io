@@ -1,0 +1,81 @@
+*{
+    padding: 0;
+    margin: 0;
+    /* box-sizing: border-box;
+    border:dashed; */
+    }
+
+body {
+   background-image: url("assets/1x/background\ BC.jpg");
+
+}
+/* the main container */
+
+.card{
+ width:70%;
+ height:100%;
+  margin: 1em auto;
+  overflow: hidden;
+  box-shadow: 2px 5px 15px 0px #ffffff94;
+  background-color:rgb(255, 255, 255);
+  border-radius: 25px;
+}
+
+.front-card{
+  background-image: url("assets/1x/Artboard\ 1.png");
+  background-size:cover;
+}
+
+ 
+.back-card {
+  background-image: url("assets/1x/Artboard\ 1\ copy.png");
+  background-repeat: no-repeat;
+  background-size:cover;
+}
+h1{
+  /* to left align text */
+  font-size: 7em;
+  margin-top: 15%;
+  margin-left:60%;
+  color:rgb(255, 255, 255);
+
+font-family: 'Raleway', sans-serif;
+}
+
+.back-text {
+  font-size: 5em;
+  margin-top: 5%;
+  margin-left: 5%;
+  color:rgb(255, 255, 255);
+  display:grid;
+  grid-template-columns: 7fr 2fr 1fr 0fr
+}
+
+h3{
+  font-size: 3em;
+  font-family: 'Raleway', sans-serif;
+}
+
+h5{
+  font-size: 1em;
+  font-family: 'Raleway', sans-serif;}
+
+  .icon-container{
+    width:40%;
+    margin-top: 22%;
+  margin-left: 70%;
+    display:grid;
+    grid-template-columns: 1fr;
+    
+  }
+
+svg{
+width:50%;
+margin-left:10%;
+fill: rgb(255, 255, 255);
+}
+
+
+svg:hover{
+  fill:rgb(117, 168, 189);
+}
